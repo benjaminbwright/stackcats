@@ -1,0 +1,20 @@
+{
+    "name": "stackcats",
+    "version": "1.0.0",
+    "description": "The nimble stack builder for node.",
+    "main": "bin/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Benjamin Wright",
+    "license": "ISC",
+    "bin": {
+        "stackcats": "./bin/index.js"
+    },
+    "dependencies": {
+        "fs-extra": "^10.1.0",
+        "inquirer": "^8.2.4",
+        "tree-node-cli": "^1.5.2"
+    },
+    "type": "module"
+}
